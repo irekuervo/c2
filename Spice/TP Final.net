@@ -1,0 +1,22 @@
+* C:\Users\Matias\Desktop\FIUBA\Materias\86.10 - Diseño de circuitos electrónicos\TP Final - Flyback\Spice\TP Final.asc
+L1 N005 N002 6.94µ
+L2 N003 0 3.62µ
+D1 N003 N004 RFU10TF6S
+C1 N004 0 120µ
+Vcc N002 0 21.6
+R1 N004 0 1.7
+V2 controller 0 PULSE(0 10 0 1n 1n 5u 10u)
+D2 controller N001 RFU10TF6S
+R2 N001 0 2
+M2 N006 controller 0 0 IRF530
+R3 Vcc N006 0.01
+M1 N005 controller 0 0 IRF530
+.model D D
+.lib C:\Users\Matias\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Matias\Documents\LTspiceXVII\lib\cmp\standard.mos
+K1 L1 L2 1
+.tran 0 2m 0
+.backanno
+.end
