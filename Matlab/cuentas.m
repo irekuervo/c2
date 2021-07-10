@@ -4,7 +4,7 @@ Vo = 12; %en la carga
 Io = 7; %en la carga
 f = 100e3; %del controlador
 Vf_diodo=2.3; %del diodo del secundario
-Vsat_driver=2; %de los transistores de potencia
+Vsat_driver=1.8; %de los transistores de potencia
 
 I1 = 2*Vo*Io/(Vcc_min*Dc)
 L1=Vcc_min*Dc/(I1*f)
