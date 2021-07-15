@@ -1,10 +1,10 @@
-Circuit: * C:\Users\Matias\Desktop\FIUBA\Materias\86.10 - Diseño de circuitos electrónicos\TP Final - Flyback\Spice\TP Final.asc
+Circuit: * C:\Users\Ezequiel\Desktop\Facultad\Circuitos 2\Tp\Spice\TP Final.asc
 
 WARNING: Less than two connections to node VCC.  This node is used by R3.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sat Jul 10 17:07:22 2021
-Total elapsed time: 5.511 seconds.
+Date: Tue Jul 13 16:06:16 2021
+Total elapsed time: 1.561 seconds.
 
 tnom = 27
 temp = 27
@@ -18,5 +18,5 @@ matrix size = 22
 fillins = 6
 solver = Normal
 Matrix Compiler1: 1.31 KB object code size  0.5/0.3/[0.2]
-Matrix Compiler2: 1.71 KB object code size  0.3/0.5/[0.2]
+Matrix Compiler2: 1.71 KB object code size  0.3/0.6/[0.2]
 
