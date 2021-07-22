@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:IRF540N Q?
+U 1 1 60F8A4A4
+P 4850 3450
+F 0 "Q?" H 5054 3496 50  0000 L CNN
+F 1 "IRF540N" H 5054 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5100 3375 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4850 3450 50  0001 L CNN
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 60F8B81F
+P 4200 3150
+F 0 "D?" H 4200 3367 50  0000 C CNN
+F 1 "1N4148" H 4200 3276 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4200 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4200 3150 50  0001 C CNN
+	1    4200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F8DC15
+P 3800 2850
+F 0 "R?" H 3870 2896 50  0000 L CNN
+F 1 "R" H 3870 2805 50  0000 L CNN
+F 2 "" V 3730 2850 50  0001 C CNN
+F 3 "~" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 60F8E463
+P 3300 2850
+F 0 "C?" H 3478 2896 50  0000 L CNN
+F 1 "C" H 3478 2805 50  0000 L CNN
+F 2 "" H 3300 2850 50  0001 C CNN
+F 3 "~" H 3300 2850 50  0001 C CNN
+	1    3300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Transformer_1P_1S T?
+U 1 1 60F8F29B
+P 5350 2750
+F 0 "T?" H 5350 3131 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 5350 3040 50  0000 C CNN
+F 2 "" H 5350 2750 50  0001 C CNN
+F 3 "~" H 5350 2750 50  0001 C CNN
+	1    5350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D?
+U 1 1 60F947EB
+P 6400 2500
+F 0 "D?" H 6400 2717 50  0000 C CNN
+F 1 "DIODE" H 6400 2626 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 6400 2500 50  0001 C CNN
+F 3 "~" H 6400 2500 50  0001 C CNN
+F 4 "Y" H 6400 2500 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 6400 2500 50  0001 L CNN "Spice_Primitive"
+	1    6400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 60F95860
+P 6800 2800
+F 0 "C?" H 6978 2846 50  0000 L CNN
+F 1 "C" H 6978 2755 50  0000 L CNN
+F 2 "" H 6800 2800 50  0001 C CNN
+F 3 "~" H 6800 2800 50  0001 C CNN
+	1    6800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F9602E
+P 7300 2800
+F 0 "R?" H 7370 2846 50  0000 L CNN
+F 1 "R" H 7370 2755 50  0000 L CNN
+F 2 "" V 7230 2800 50  0001 C CNN
+F 3 "~" H 7300 2800 50  0001 C CNN
+	1    7300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F96737
+P 6800 3350
+F 0 "R?" H 6870 3396 50  0000 L CNN
+F 1 "R" H 6870 3305 50  0000 L CNN
+F 2 "" V 6730 3350 50  0001 C CNN
+F 3 "~" H 6800 3350 50  0001 C CNN
+	1    6800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2500 6800 2500
+Wire Wire Line
+	6800 2500 6800 2550
+Wire Wire Line
+	6800 2500 7300 2500
+Wire Wire Line
+	7300 2500 7300 2650
+Connection ~ 6800 2500
+Wire Wire Line
+	7300 2950 7300 3050
+Wire Wire Line
+	7300 3050 6800 3050
+Wire Wire Line
+	6800 3050 6800 3200
+Connection ~ 6800 3050
+Wire Wire Line
+	6800 3050 5750 3050
+Wire Wire Line
+	5750 3050 5750 2950
+Wire Wire Line
+	5750 2550 5750 2500
+Wire Wire Line
+	5750 2500 6250 2500
+Wire Wire Line
+	4950 2950 4950 3150
+Wire Wire Line
+	4950 2550 3800 2550
+Wire Wire Line
+	3300 2550 3300 2600
+Wire Wire Line
+	3300 3100 3550 3100
+Wire Wire Line
+	3800 3100 3800 3000
+Wire Wire Line
+	3800 2700 3800 2550
+Connection ~ 3800 2550
+Wire Wire Line
+	3800 2550 3300 2550
+Wire Wire Line
+	3550 3100 3550 3150
+Wire Wire Line
+	3550 3150 4050 3150
+Connection ~ 3550 3100
+Wire Wire Line
+	3550 3100 3800 3100
+Wire Wire Line
+	4350 3150 4950 3150
+Connection ~ 4950 3150
+Wire Wire Line
+	4950 3150 4950 3250
+$Comp
+L power:GND #PWR?
+U 1 1 60F9962A
+P 4950 3850
+F 0 "#PWR?" H 4950 3600 50  0001 C CNN
+F 1 "GND" H 4955 3677 50  0000 C CNN
+F 2 "" H 4950 3850 50  0001 C CNN
+F 3 "" H 4950 3850 50  0001 C CNN
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3850 4950 3700
+Wire Wire Line
+	6800 3500 6800 3700
+Wire Wire Line
+	6800 3700 4950 3700
+Connection ~ 4950 3700
+Wire Wire Line
+	4950 3700 4950 3650
+$Comp
+L Regulator_Controller:TL494 U?
+U 1 1 60F9AAFB
+P 3800 4400
+F 0 "U?" H 3800 5281 50  0000 C CNN
+F 1 "TL494" H 3800 5190 50  0000 C CNN
+F 2 "" H 3800 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl494.pdf" H 3800 4400 50  0001 C CNN
+	1    3800 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
