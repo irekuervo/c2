@@ -293,7 +293,7 @@ F 3 "~" H 8250 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8450 1850 8750 1850
+	8450 1850 8700 1850
 Wire Wire Line
 	8600 1750 8600 2450
 Connection ~ 8600 1750
@@ -327,24 +327,13 @@ U 1 1 60FDAF33
 P 8300 3400
 F 0 "D3" H 8300 3286 50  0000 C CNN
 F 1 "TL431D" H 8300 3195 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8300 3150 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92L" H 8300 3150 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 8300 3400 50  0001 C CIN
 	1    8300 3400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 2450 8000 2450
-$Comp
-L power:GND #PWR0106
-U 1 1 60FDE657
-P 8600 3400
-F 0 "#PWR0106" H 8600 3150 50  0001 C CNN
-F 1 "GND" H 8605 3227 50  0000 C CNN
-F 2 "" H 8600 3400 50  0001 C CNN
-F 3 "" H 8600 3400 50  0001 C CNN
-	1    8600 3400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C6
 U 1 1 60FDF698
@@ -551,7 +540,6 @@ Wire Wire Line
 	8600 3050 8600 2950
 Wire Wire Line
 	8400 3400 8500 3400
-Connection ~ 8600 3400
 Wire Wire Line
 	8200 3400 7700 3400
 Connection ~ 7700 3400
@@ -732,4 +720,12 @@ Wire Wire Line
 Connection ~ 3350 5050
 Wire Wire Line
 	3350 5050 3350 5950
+Wire Wire Line
+	8700 1850 8700 3400
+Wire Wire Line
+	8700 3400 8600 3400
+Connection ~ 8700 1850
+Wire Wire Line
+	8700 1850 8750 1850
+Connection ~ 8600 3400
 $EndSCHEMATC
