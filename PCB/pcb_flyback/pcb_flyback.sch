@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:pcb_flyback-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -249,28 +248,6 @@ F 3 "" H 6450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
-U 1 1 60FD7C83
-P 8600 2700
-F 0 "R11" H 8670 2746 50  0000 L CNN
-F 1 "R" H 8670 2655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 8530 2700 50  0001 C CNN
-F 3 "~" H 8600 2700 50  0001 C CNN
-	1    8600 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 60FD7D2D
-P 8600 3250
-F 0 "R12" H 8670 3296 50  0000 L CNN
-F 1 "R" H 8670 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 8530 3250 50  0001 C CNN
-F 3 "~" H 8600 3250 50  0001 C CNN
-	1    8600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R10
 U 1 1 60FD7D6F
 P 8300 2950
@@ -292,8 +269,6 @@ F 3 "~" H 8250 2450 50  0001 C CNN
 	1    8250 2450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8450 1850 8700 1850
 Wire Wire Line
 	8600 1750 8600 2450
 Connection ~ 8600 1750
@@ -521,25 +496,9 @@ Wire Wire Line
 	8600 2550 8600 2450
 Connection ~ 8600 2450
 Wire Wire Line
-	8450 2950 8600 2950
-Wire Wire Line
-	8600 2950 8600 2850
-Wire Wire Line
 	8150 2950 8100 2950
 Wire Wire Line
 	7700 2950 7800 2950
-Wire Wire Line
-	8600 3100 8600 3050
-Connection ~ 8600 2950
-Wire Wire Line
-	8300 3300 8300 3050
-Wire Wire Line
-	8300 3050 8600 3050
-Connection ~ 8600 3050
-Wire Wire Line
-	8600 3050 8600 2950
-Wire Wire Line
-	8400 3400 8500 3400
 Wire Wire Line
 	8200 3400 7700 3400
 Connection ~ 7700 3400
@@ -547,11 +506,6 @@ Wire Wire Line
 	7700 3400 7700 3750
 Wire Wire Line
 	8250 3750 8500 3750
-Wire Wire Line
-	8500 3750 8500 3400
-Connection ~ 8500 3400
-Wire Wire Line
-	8500 3400 8600 3400
 Wire Wire Line
 	7950 3750 7700 3750
 Wire Wire Line
@@ -720,12 +674,57 @@ Wire Wire Line
 Connection ~ 3350 5050
 Wire Wire Line
 	3350 5050 3350 5950
-Wire Wire Line
-	8700 1850 8700 3400
-Wire Wire Line
-	8700 3400 8600 3400
+Connection ~ 8600 3400
 Connection ~ 8700 1850
 Wire Wire Line
+	8700 3400 8600 3400
+Wire Wire Line
+	8500 3400 8600 3400
+Wire Wire Line
 	8700 1850 8750 1850
-Connection ~ 8600 3400
+Wire Wire Line
+	8450 1850 8700 1850
+Wire Wire Line
+	8500 3750 8500 3400
+Wire Wire Line
+	8700 1850 8700 3400
+Connection ~ 8600 2950
+Wire Wire Line
+	8600 2950 8600 2850
+Wire Wire Line
+	8450 2950 8600 2950
+$Comp
+L Device:R R12
+U 1 1 60FD7D2D
+P 8600 3250
+F 0 "R12" H 8670 3296 50  0000 L CNN
+F 1 "R" H 8670 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8530 3250 50  0001 C CNN
+F 3 "~" H 8600 3250 50  0001 C CNN
+	1    8600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 60FD7C83
+P 8600 2700
+F 0 "R11" H 8670 2746 50  0000 L CNN
+F 1 "R" H 8670 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8530 2700 50  0001 C CNN
+F 3 "~" H 8600 2700 50  0001 C CNN
+	1    8600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2950 8600 3050
+Wire Wire Line
+	8300 3300 8300 3050
+Wire Wire Line
+	8300 3050 8600 3050
+Connection ~ 8600 3050
+Wire Wire Line
+	8600 3050 8600 3100
+Wire Wire Line
+	8400 3400 8500 3400
+Connection ~ 8500 3400
 $EndSCHEMATC
