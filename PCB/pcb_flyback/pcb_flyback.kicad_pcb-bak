@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 1)
-    (tracks 163)
+    (tracks 166)
     (zones 0)
     (modules 31)
     (nets 25)
@@ -12,7 +12,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1556,6 +1556,9 @@
   (segment (start 88.9 106.68) (end 91.44 106.68) (width 0.25) (layer B.Cu) (net 1) (status 400000))
   (segment (start 93.98 104.14) (end 93.98 92.71) (width 0.25) (layer B.Cu) (net 1) (tstamp 610183CE))
   (segment (start 91.44 106.68) (end 93.98 104.14) (width 0.25) (layer B.Cu) (net 1) (tstamp 610183CC))
+  (segment (start 105.41 110.49) (end 107.95 110.49) (width 0.6) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 110.26 108.18) (end 110.49 108.18) (width 0.6) (layer F.Cu) (net 1) (tstamp 61034B4F) (status C00000))
+  (segment (start 107.95 110.49) (end 110.26 108.18) (width 0.6) (layer F.Cu) (net 1) (tstamp 61034B4E) (status 800000))
   (segment (start 105.41 102.87) (end 106.68 102.87) (width 0.25) (layer F.Cu) (net 2) (status 400000))
   (segment (start 108.99 105.18) (end 110.49 105.18) (width 0.25) (layer F.Cu) (net 2) (tstamp 61018268) (status 800000))
   (segment (start 106.68 102.87) (end 108.99 105.18) (width 0.25) (layer F.Cu) (net 2) (tstamp 61018266))
