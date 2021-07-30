@@ -1,0 +1,251 @@
+Cmp-Mod V01 Created by PcbNew   date = 29/7/2021 8:50:23 p. m.
+
+BeginCmp
+TimeStamp = 610963AF
+Path = /60FCC3B4
+Reference = TR1;
+ValeurCmp = TRANSF6;
+IdModule  = Transformer_THT:Transformer_Breve_TEZ-22x24;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109629D
+Path = /60FCA7E2
+Reference = Out2;
+ValeurCmp = Screw_Terminal_01x02;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 610963DB
+Path = /60F9AAFB
+Reference = U1;
+ValeurCmp = TL494;
+IdModule  = Package_DIP:DIP-16_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096394
+Path = /60F8DC15
+Reference = RSnuber1;
+ValeurCmp = 4k;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096292
+Path = /60FCB085
+Reference = Out1;
+ValeurCmp = Screw_Terminal_01x02;
+IdModule  = Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096196
+Path = /60FDAE04
+Reference = C4;
+ValeurCmp = 22n;
+IdModule  = Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109630C
+Path = /6110E4E2
+Reference = R5;
+ValeurCmp = 5.1k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096287
+Path = /60FD2ABC
+Reference = Dsnuber2;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 610961DE
+Path = /60FDF698
+Reference = C6;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:CP_Elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 610963F3
+Path = /60FE3169
+Reference = U2;
+ValeurCmp = PC817;
+IdModule  = Package_DIP:DIP-4_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109631D
+Path = /61029A05
+Reference = R6;
+ValeurCmp = 150;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 610962C8
+Path = /60FFED91
+Reference = R1;
+ValeurCmp = 51k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 610962D9
+Path = /60FFECD3
+Reference = R2;
+ValeurCmp = 51k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 610962EA
+Path = /610F3637
+Reference = R3;
+ValeurCmp = 510;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 610962FB
+Path = /61010421
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109632E
+Path = /60FE98A3
+Reference = R7;
+ValeurCmp = 860;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096350
+Path = /60FD7DD0
+Reference = R9;
+ValeurCmp = 4.2k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096361
+Path = /60FD7D6F
+Reference = R10;
+ValeurCmp = 1m;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096372
+Path = /60FD7C83
+Reference = R11;
+ValeurCmp = 38k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096383
+Path = /60FD7D2D
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109612A
+Path = /6110E562
+Reference = C1;
+ValeurCmp = 1n;
+IdModule  = Capacitor_SMD:CP_Elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109614E
+Path = /60FD4E28
+Reference = C2;
+ValeurCmp = 22n;
+IdModule  = Capacitor_SMD:CP_Elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 610961BA
+Path = /61049255
+Reference = C5;
+ValeurCmp = 500u;
+IdModule  = Capacitor_SMD:CP_Elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096202
+Path = /60F8E463
+Reference = CSnuber1;
+ValeurCmp = 55.2u;
+IdModule  = Capacitor_SMD:CP_Elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096213
+Path = /60FD52F4
+Reference = D1;
+ValeurCmp = 15V;
+IdModule  = Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 6109622C
+Path = /60F947EB
+Reference = D2;
+ValeurCmp = RFU10TF6S;
+IdModule  = Package_TO_SOT_THT:TO-220-2_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61096268
+Path = /60FD2448
+Reference = Dsnuber1;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 610962B7
+Path = /60F8A4A4
+Reference = Q1;
+ValeurCmp = IRF540N;
+IdModule  = Package_TO_SOT_THT:TO-220-3_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61034028
+Path = /6103A31D
+Reference = Cce1;
+ValeurCmp = 1m;
+IdModule  = Capacitor_SMD:CP_Elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 61034039
+Path = /60FDAF33
+Reference = D3;
+ValeurCmp = TL431D;
+IdModule  = Package_TO_SOT_THT:TO-92L;
+EndCmp
+
+BeginCmp
+TimeStamp = 61034047
+Path = /6103A40A
+Reference = Rce1;
+ValeurCmp = 8k;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical;
+EndCmp
+
+EndListe
