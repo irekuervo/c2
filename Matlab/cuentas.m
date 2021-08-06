@@ -7,6 +7,6 @@ Vf_diodo=2.3; %del diodo del secundario
 Vsat_driver=1.8; %de los transistores de potencia
 
 I1 = 2*Vo*Io/(Vcc_min*Dc)
-L1=Vcc_min*Dc/(I1*f)
+L1=Vcc_min*Dc/(I1*f)    
 N2=(Vo+Vf_diodo)*(1-Dc)/((Vcc_min-Vsat_driver)*Dc)
 L2=L1*(N2)^2
